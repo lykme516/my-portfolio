@@ -1,5 +1,9 @@
 // src/components/Testimonials.js
 
+import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
+import React from "react";
+import { testimonials } from "../data";
+
 export default function Testimonials() {
     return (
         <section id="testimonials">
